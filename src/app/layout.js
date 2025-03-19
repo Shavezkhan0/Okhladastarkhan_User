@@ -4,7 +4,8 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { ReduxProvider } from "@/redux/ReduxProvider";
 import AuthProvider from "@/features/AuthProvider";
-import { authOptions } from "./api/auth/[...nextauth]/route";
+// import { authOptions } from "./api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/auth";
 import { getServerSession } from "next-auth";
 import NavbarBottom from "@/components/NavbarBottom";
 
